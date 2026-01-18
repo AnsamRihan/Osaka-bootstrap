@@ -27,3 +27,28 @@ body{
 }
 
 /* --------------------------------------------------------------- */
+
+.hero{
+    background-image: url(./../Images/hero/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fw__extraBold{
+    font-weight: 800 !important;
+}
+
+.text__primary{
+    color: var(--primaryColor);
+}
+
+.hero .hero-content .social-media .list-item a{
+    width: 32px;
+    height: 32px;
+    border-color: #222 !important;
+    transition: all 1s;
+}
+
+.hero .hero-content .social-media .list-item a:hover{
+    border-color: white !important;
+}
