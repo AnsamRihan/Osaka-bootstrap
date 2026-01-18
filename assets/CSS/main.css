@@ -8,10 +8,6 @@ body{
     font-size: 16px;
 }
 
-.header .navbar{
-    padding: 0.5rem 1rem;
-}
-
 .header .navbar .navbar-brand {
     font-size: 1rem;
     letter-spacing: 2px;
