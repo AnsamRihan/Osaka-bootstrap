@@ -1,0 +1,33 @@
+:root{
+    --primaryColor: #ff206e;
+    --mainFont: "Open Sans", sans-serif;
+}
+
+body{
+    font-family: var(--mainFont);
+    font-size: 16px;
+}
+
+.header .navbar{
+    padding: 0.5rem 1rem;
+}
+
+.header .navbar .navbar-brand {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.header .navbar .nav-link {
+    color: #FFF;
+    font-size: 0.875rem;
+}
+
+.header .navbar .nav-link:hover{
+    color: var(--primaryColor);
+}
+
+.header .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show {
+    color: var(--primaryColor);
+}
+
+/* --------------------------------------------------------------- */
