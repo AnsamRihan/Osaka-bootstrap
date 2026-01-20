@@ -51,6 +51,10 @@ body{
     color: var(--primaryColor);
 }
 
+.hero .hero-content .link a:hover{
+    color: var(--primaryColor-hover);
+}
+
 .hero .hero-content .social-media .list-item a{
     width: 32px;
     height: 32px;
