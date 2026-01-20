@@ -33,15 +33,20 @@ body{
     font-size: 0.875rem;
 }
 
-.header .navbar .nav-link:hover{
+.header .navbar .nav-link:hover,
+.portfolio .nav-tabs .nav-link:hover{
     color: var(--primaryColor);
 }
 
-.header .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show {
+.header .navbar .navbar-nav .nav-link.active, 
+.navbar .navbar-nav .nav-link.show,
+.portfolio .nav-tabs .nav-item.show .nav-link, 
+.portfolio .nav-tabs .nav-link.active  {
     color: var(--primaryColor);
 }
 
-.header .navbar .navbar-nav .nav-link.active:hover {
+.header .navbar .navbar-nav .nav-link.active:hover,
+.hero .hero-content .link a:hover{
     color: var(--primaryColor-hover);
 }
 
@@ -51,10 +56,6 @@ body{
     background-image: url(./../Images/hero/bg-hero.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.hero .hero-content .link a:hover{
-    color: var(--primaryColor-hover);
 }
 
 .hero .hero-content .social-media .list-item a{
@@ -70,10 +71,27 @@ body{
 
 /* --------------------------------------------------------------- */
 
-.about{
-    background-image: url(./../Images/about/light_dot.jpg);
+.about, 
+.portfolio{
+    background-image: url(./../Images/public/light_dot.jpg);
 }
 
 .about .info .about-image img{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 30px;
 }
+
+/* --------------------------------------------------------------- */
+
+.portfolio .nav-tabs {
+    border-bottom: none;
+}
+
+.portfolio .nav-tabs .nav-link{
+    color: black;
+}
+
+.portfolio .nav-tabs .nav-link {
+    border: none;
+}
+
+/* --------------------------------------------------------------- */
