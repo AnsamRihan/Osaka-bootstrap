@@ -9,6 +9,16 @@ body{
     font-size: 16px;
 }
 
+.fw__extraBold{
+    font-weight: 800 !important;
+}
+
+.text__primary{
+    color: var(--primaryColor);
+}
+
+/* --------------------------------------------------------------- */
+
 .header .navbar .navbar-brand {
     font-size: 1rem;
     letter-spacing: 2px;
@@ -43,14 +53,6 @@ body{
     background-position: center;
 }
 
-.fw__extraBold{
-    font-weight: 800 !important;
-}
-
-.text__primary{
-    color: var(--primaryColor);
-}
-
 .hero .hero-content .link a:hover{
     color: var(--primaryColor-hover);
 }
@@ -64,4 +66,14 @@ body{
 
 .hero .hero-content .social-media .list-item a:hover{
     border-color: white !important;
+}
+
+/* --------------------------------------------------------------- */
+
+.about{
+    background-image: url(./../Images/about/light_dot.jpg);
+}
+
+.about .info .about-image img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 30px;
 }
