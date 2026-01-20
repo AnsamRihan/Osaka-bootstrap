@@ -1,5 +1,6 @@
 :root{
     --primaryColor: #ff206e;
+    --primaryColor-hover: #c41954;
     --mainFont: "Open Sans", sans-serif;
 }
 
@@ -13,6 +14,10 @@ body{
     letter-spacing: 2px;
 }
 
+.header .navbar .navbar-brand:hover {
+    color: var(--primaryColor) !important;
+}
+
 .header .navbar .nav-link {
     color: #FFF;
     font-size: 0.875rem;
@@ -24,6 +29,10 @@ body{
 
 .header .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show {
     color: var(--primaryColor);
+}
+
+.header .navbar .navbar-nav .nav-link.active:hover {
+    color: var(--primaryColor-hover);
 }
 
 /* --------------------------------------------------------------- */
